@@ -1,12 +1,21 @@
-# React + Vite
+# 🍽️ Meal Finder App (React + TheMealDB API)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple React application that fetches meals from [TheMealDB](https://www.themealdb.com) API based on ingredients entered by the user.  
+When you click on a meal from the list, a **popup modal** opens showing the full recipe details (instructions, image, etc.).  
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
+- 🔎 Search meals by ingredient  
+- 📜 Fetch full meal details using **lookup API**  
+- 🖼️ Popup modal with smooth animations  
+- ❌ Close popup by clicking outside or pressing the close button  
+- 🎨 Clean, responsive UI  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+- React (Hooks: `useState`, `useEffect`)
+- TheMealDB API
+- CSS (custom modal styles)
+
